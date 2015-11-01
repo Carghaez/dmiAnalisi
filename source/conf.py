@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.mathjax',
 ]
 
-#mathjax_path="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"
+mathjax_path="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
