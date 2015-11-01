@@ -1,7 +1,3 @@
-{% extends "!layout.html" %}
-
-{%- block extrahead %}
-<style>
     body{
         line-height: 2;
     }
@@ -41,14 +37,3 @@
    h1 {
     text-align: center;
    }
-</style>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
-<!-- <script type="text/javascript" src="../../lib/MathJax/MathJax.js?config=AM_HTMLorMML-full"></script> -->
- <script type="text/javascript">
-        MathJax.Hub.Config({
-            asciimath2jax:{
-                delimiters:[['@','@']]
-            }
-        });
-  </script>
-{% endblock %}
