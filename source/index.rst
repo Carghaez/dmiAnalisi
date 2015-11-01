@@ -13,7 +13,9 @@ Appunti di Analisi A.A. 2015-2016
 di Gaetano Carpinato
 ====================
 
-Questi appunti sono nati perchè volevo condividere bla bla bla...
+Questi sono gli appunti di Analisi dell'A.A. 2015-2016 dell'Università di Catania, corso di laurea in Informatica (A-L).
+
+:Professore: Giovanni Emmanuele.
 
 .. toctree::
     :maxdepth: 2
