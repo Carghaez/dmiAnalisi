@@ -1,0 +1,54 @@
+{% extends "!layout.html" %}
+
+{%- block extrahead %}
+<style>
+    body{
+        line-height: 2;
+    }
+    .underline {
+        text-decoration: underline;
+    }
+    .strike {
+        text-decoration: line-through;
+    }
+    .centered {
+        text-align: center;
+    }
+    .centered strong {
+        font-weight: normal;
+    }
+    .toright {
+        float: right;
+    }
+    .toright:after{
+        clear: both;
+    }
+    .rst-content .line-block {
+        margin-left: 0;
+    }
+  .rst-content .section p + ul,
+  .rst-content .section p + ol,{
+        margin-top: -18px;
+   }
+   .rst-content .section li {
+        margin-bottom: 10px;
+   }
+   h3 {
+    color: #5A5A5A;
+    margin-bottom: 5px;
+    font-size: 120%;
+   }
+   h1 {
+    text-align: center;
+   }
+</style>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+<!-- <script type="text/javascript" src="../../lib/MathJax/MathJax.js?config=AM_HTMLorMML-full"></script> -->
+ <script type="text/javascript">
+        MathJax.Hub.Config({
+            asciimath2jax:{
+                delimiters:[['@','@']]
+            }
+        });
+  </script>
+{% endblock %}
