@@ -31,9 +31,9 @@ raw_enabled = 'true'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-#extensions = [
-#    'sphinx.ext.mathjax',
-#]
+extensions = [
+    'sphinx.ext.mathjax',
+]
 
 #mathjax_path="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"
 
