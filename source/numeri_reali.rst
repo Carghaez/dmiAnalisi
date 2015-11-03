@@ -41,9 +41,28 @@ Definizione di @RR@
 
 :Lezione del: 13-10-2015
 
+**************************************************
+Uguaglianza in @RR@
+**************************************************
+
+| **Definizione:**
+
+Siano @x, y in RR@, diremo che essi sono uguali se @x@ e @y@ sono lo zero di @QQ@ oppure, se nessuno dei due è lo zero, se hanno lo stesso segno, la stessa parte intera e le cifre decimali ordinatamente uguali con l'eccezione dei numeri periodici di periodo 9.
+
+Proprietà della relazione Uguaglianza
+=====================================
+- *Riflessiva* : @x = x AA x in RR@
+- *Simmetrica* :  @x = y rArr y = x@
+- *Transitiva* : @x = y and y = z rArr x = z@
+
+:Lezione del: 13-10-2015
+
 **********************
 Ordinamento in @RR@
 **********************
+Definizione di Ordinamento in @RR@
+==================================
+
 Siano @x, y in RR@ con @x != y@
 
 * Se @x@ ha il segno @+@ e @y = 0@; diciamo che @x@ è più grande di @y@ [@x > y@]
@@ -51,6 +70,8 @@ Siano @x, y in RR@ con @x != y@
 * Se @x@ ha segno @+@ e @y@ ha segno @-@; diciamo che @x@ è più grande di @y@ [@x > y@]
 * Se @x@, @y@ hanno il segno @+@; diciamo che @x@ è più grande di @y@ se la parte intera di @x@ è più grande di quella di @y@. Se invece le parti intere sono uguali confrontiamo, in maniera ordinata, le cifre decimali dopo la virgola fin quando non troviamo una cifra di @x@ che è più grande di @y@
 * Se @x@, @y@ hanno il segno @-@; Indico @-x@ e @-y@ i numeri che si ottengono da @x@, @y@ cambiando il segno; diciamo che @x@ è più grande di @y@ se @-x < -y@ [ *Quando due numeri hanno il segno @-@ cambiamo di segno i due numeri e ci riconduciamo alla definizione precedente* ]
+
+.. note:: Se le parti intere sono uguali confrontiamo la prima cifra decimale e così via...
 
 Proprietà dell'Ordinamento in @RR@
 ==================================
@@ -68,22 +89,6 @@ L'Ordinamento Totale è un particolare Ordinamento Parziale [ *si definisce ordi
 
     Il simbolismo in campo scientifico è fondamentale. Non possiamo parlare a vanvera anzichè indicare una cosa ne indichiamo un'altra. Se io prendo un testo in inglese o indiano, visto che i simboli sono uguali in tutte le lingue lo puoi leggere. Se i simboli fossero diversi da paese a pese sarebbe un guaio. Il simbolismo uguale in tutti i paesi è fondamentale per la comunicazione.
     Il succo: Dobbiamo stare attenti ad usare i simboli appropriati quando si esprime un concetto.
-
-:Lezione del: 13-10-2015
-
-**************************************************
-Uguaglianza in @RR@
-**************************************************
-
-| **Definizione:**
-
-Siano @x, y in RR@, diremo che essi sono uguali se @x@ e @y@ sono lo zero di @QQ@ oppure, se nessuno dei due è lo zero, se hanno lo stesso segno, la stessa parte intera e le cifre decimali ordinatamente uguali con l'eccezione dei numeri periodici di periodo 9.
-
-Proprietà della relazione Uguaglianza
-=====================================
-- *Riflessiva* : @x = x AA x in RR@
-- *Simmetrica* :  @x = y rArr y = x@
-- *Transitiva* : @x = y and y = z rArr x = z@
 
 :Lezione del: 13-10-2015
 
@@ -112,7 +117,7 @@ Proprietà del Valore Assoluto
     | Se @x@ è positivo allora @\|x\| = x  rArr x > 0 rArr@ contraddizione dell'ipotesi.
     | Se @x@ è negativo allora @\|x\| = -x rArr -x > 0 rArr@ contraddizione dell'ipotesi.
     | Quindi @x = 0@.
-- @\|x\| >= 0 AA x in RR@
+- @\|x\| >= 0 AA x in RR@ ( *non è mai negativo* )
 - @\|x\| = \|-x\| AA x in RR@
     | *Dimostrazione* :
     | @x@ positivo @rArr \|x\| = x = +c_0,c_1c_2c_3@... [ *Allineamento decimale con segno @+@* ] quindi @-x = -c_0,c_1c_2c_3@... è negativo.
@@ -124,9 +129,35 @@ Proprietà del Valore Assoluto
 ****************************
 Somma in @RR@
 ****************************
-@a in RR^+, b in RR^-@ : @a+b = {(+(\|a\| - \|b\|), if \|a\| > \|b\|),(0, if \|a\| = \|b\|),(-(\|b\| - \|a\|), if \|a\| < \|b\|):}@
+
+Somma tra positivi
+==================
+Sia @x = c_0,c_1c_2c_3... and y = d_0,d_1d_2d_3...@
+
+.. centered:: @x+y = +h_0,h_1h_2h_3...@
+
+Indichiamo con
+
+- @x_0 = +c_0 , y_0 = +d_0 rArr x_0 + y_0 = s_0@
+- @x_1 = +c_0,c_1 , y_0 = +d_0,d_1 rArr x_1 + y_1 = s_1@
+- continuando così...
+
+Definiremo @s_0@ ed @s_1@ somme parziali.
+
+:Lezione del: 13-10-2015
+
+
+Somma tra positivo e negativo
+======================================
+Si considerano i valori assoluti dei numeri e si prende il segno di quello maggiore ( *come valore* ) e si fa la differenza dei due numeri mettendo il maggiore come primo numero.
 
 *Appunti incompleti...*
+
+Teorema delle Somme Parziali
+============================
+Eseguendo le somme parziali da un certo posto in poi la parte intera rimane la stessa; da un posto successivo anche la prima cifra decimale rimane la stessa e così via...
+
+@a in RR^+, b in RR^-@ : @a+b = {(+(\|a\| - \|b\|), if \|a\| > \|b\|),(0, if \|a\| = \|b\|),(-(\|b\| - \|a\|), if \|a\| < \|b\|):}@
 
 :Lezione del: 13-10-2015
 
@@ -136,7 +167,7 @@ Prodotto in @RR@
 
 | Sia @a, b in RR^+@ con @a=+h_0,h_1h_2h_3@... e @b = + m_0,m_1m_2m_3@...
 | **Teorema**
-| Da un certo posto in poi, i numeri @p_0,p_1@... hanno la stessa parte intera, da un posto successivo la prima fila decimale rimane costante
+| Da un certo posto in poi, i numeri @p_0,p_1@... hanno la stessa parte intera, da un posto successivo anche la prima fila decimale rimane costante
 | @a in R^+@, @b in R^-@ : @a \* b = - \|a\| \* \|b\|@
 
 
