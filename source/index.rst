@@ -28,5 +28,6 @@ Questi sono gli appunti di Analisi dell'A.A. 2015-2016 dell'Università di Catan
     Calcolo Combinatorio <calcolo_combinatorio>
     Teorema del Buon Ordinamento <teorema_buon_ordinamento>
     Somma dei quadrati dei primi n numeri in N <somma_quadrati_nn>
+    lezione_3nov <lezione_3nov>
 
 
