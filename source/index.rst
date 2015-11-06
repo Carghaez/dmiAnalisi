@@ -22,12 +22,16 @@ Questi sono gli appunti di Analisi dell'A.A. 2015-2016 dell'Università di Catan
     :numbered:
     :caption: Argomenti trattati
 
-    Dimostrazioni Matematiche <dimostrazioni_matematiche>
-    I numeri Razionali <numeri_razionali>
-    I numeri Reali <numeri_reali>
-    Calcolo Combinatorio <calcolo_combinatorio>
-    Teorema del Buon Ordinamento <teorema_buon_ordinamento>
-    Somma dei quadrati dei primi n numeri in N <somma_quadrati_nn>
-    lezione_3nov <lezione_3nov>
+    10-2015/dimostrazioni_matematiche
+    10-2015/numeri_razionali
+    10-2015/numeri_reali
+    10-2015/calcolo_combinatorio
+    10-2015/teorema_buon_ordinamento
+    10-2015/somma_quadrati_nn
+    3-11-2015/archimede
+    3-11-2015/maggioranti_etc
+    5-11-2015/metodo_esaustione
+    5-11-2015/interesse
+    5-11-2015/studio_di_funzione
 
 
