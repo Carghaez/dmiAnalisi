@@ -1,39 +1,43 @@
-    body{
-        line-height: 2;
-    }
-    .underline {
-        text-decoration: underline;
-    }
-    .strike {
-        text-decoration: line-through;
-    }
-    .centered {
-        text-align: center;
-    }
-    .centered strong {
-        font-weight: normal;
-    }
-    .toright {
-        float: right;
-    }
-    .toright:after{
-        clear: both;
-    }
-    .rst-content .line-block {
-        margin-left: 0;
-    }
-  .rst-content .section p + ul,
-  .rst-content .section p + ol,{
-        margin-top: -18px;
-   }
-   .rst-content .section li {
-        margin-bottom: 10px;
-   }
-   h3 {
-    color: #5A5A5A;
-    margin-bottom: 5px;
-    font-size: 120%;
-   }
-   h1 {
-    text-align: center;
-   }
+body{
+	line-height: 2;
+}
+.underline {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.centered {
+	text-align: center;
+}
+.centered strong {
+	font-weight: normal;
+}
+.toright {
+	float: right;
+}
+.toright:after{
+	clear: both;
+}
+.rst-content .line-block {
+	margin-left: 0;
+}
+.rst-content .section p + ul,
+.rst-content .section p + ol,{
+	margin-top: -18px;
+}
+.rst-content .section li {
+	margin-bottom: 10px;
+}
+h3 {
+	color: #5A5A5A;
+	margin-bottom: 5px;
+	font-size: 120%;
+}
+h1 {
+	text-align: center;
+}
+.wy-side-nav-search>a img.logo {
+	max-width: 80%;
+	margin-top: 0.5em;
+}
