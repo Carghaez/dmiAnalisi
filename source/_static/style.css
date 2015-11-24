@@ -41,3 +41,6 @@ h1 {
 	max-width: 80%;
 	margin-top: 0.5em;
 }
+p:not(.last) {
+	line-height: 38px;
+}
