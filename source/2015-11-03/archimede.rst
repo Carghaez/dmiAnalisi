@@ -17,7 +17,9 @@ Definizione
 
 .. centered:: @n > beta/alpha hArr alpha n > beta@
 
-Dati due numeri reali positivi @alpha@ e @beta@ esiste un numero naturale @n@ tale che @alpha \* n > beta@
+Dati due numeri reali positivi @alpha@ e @beta@ esiste un numero naturale @n@ tale che @alpha \* n > beta@ [ *esiste sempre un multiplo più grande dell'altro* ]
+
+
 
 | **Dimostrazione (per assurdo):**
 
