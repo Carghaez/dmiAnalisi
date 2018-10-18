@@ -9,6 +9,6 @@
   head.appendChild(script);
   script = document.createElement("script");
   script.type = "text/javascript";
-  script.src  = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full";
+  script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full";
   head.appendChild(script);
 })();
